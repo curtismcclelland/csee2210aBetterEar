@@ -1,0 +1,180 @@
+ Engineering Design Process
+
+
+
+
+
+
+
+
+
+A Better Ear
+
+
+
+
+
+
+
+
+Prepared by 
+
+
+John Watson and Curtis McClelland
+jtw33657@uga.edu
+cwm38229@uga.edu
+
+
+
+
+
+January 2019
+Table of Contents
+PREFACE										3
+
+BACKGROUND									4
+
+ENGINEERING 									5
+
+THE DESIGN PROCESS 								6
+
+DEFINE THE PROBLEM							7
+GATHER PERTINENT INFORMATION					9
+GENERATE MULTIPLE SOLUTIONS					11
+ANALYZE AND SELECT A SOLUTION					13
+TEST AND IMPLEMENT THE SOLUTION				15
+
+REFERENCE									23
+
+
+PREFACE
+
+This document serves as an introduction to “A Better Ear,” a system created in order to help those with specific learning disabilities. “A Better Ear” is a concept involving several pieces of technology that can help those whom are hard of hearing, suffer from ADHD, and dyslexia. 
+
+This inspiration behind this invention came in John and my second semester Discrete Math for Engineers 2611 class, where our teacher has slight hearing loss and struggles to hear students during the question and answer portion of our class. This got us thinking in terms of global usage of some sort of audio pickup and playback system that could help a vast number of individuals, and decrease the need for notetakers. This sort of system could help students receive transcripts of the lecture, hear audio playback of the lecture live or after the class, and generally help students with disabilities become less dependent on other people to help them receive the same learning opportunities as others. Overall, the concept would help people with disabilities gain control over when and how they can hear the same content as other students. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BACKGROUND
+
+According to the National Center for Education Statistics, 11% of college students self-report having learning disabilities. Seeing as 20.4 million students were expected to attend college or university in 2017 (Bestcolleges.com), that means that over 200,000 new students in American secondary education have a learning disability, in one year alone. These learning disabilities are accounted for by school administrations in different ways, however they are not always the most effective way to deal with the problem. Thus, we desire to create a system which helps those with disabilities in the classroom and elevates them to the position where they can be on even keel with the average student. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ENGINEERING DESIGN
+
+Our solution requires a system wherein there are audio pickup devices located around a classroom, in ideal positions in order to accurately receive the most amount of sound. These pickup devices will be connected to a series of playback devices in the form of earpieces, that can be used by students and professors alike, in order to help with questions being asked and answers being explained, as well as comprehension of the general lecture and content of the class. 
+
+This system could also be extended in order to transpose written text or presentation material into audio for those with vision impairments. We would need to implement some sort of text to speech and speech to text application that can help those who not only are hard of vision, but those who have attention difficulties and respond better to audible content as opposed to visual. Lectures can be recorded and listened to repetitively, or turned into transcripts and parsed by the individual in question in order to understand the content. 
+
+The audio pickup devices would need to be small and inconspicuous, as well as have sufficient range to pick up questions from all areas of the classroom. One would likely be located on the professor’s person, in order to ensure accurate pickup of the actual lecture. Several others should be strategically placed about the classroom in order to ensure high quality recording. 
+
+This means that significant research about the movement of sounds waves in large classrooms must be done. Without the receivers being able to pick up the questions posed by students, the system is significantly less useful and could hinder other students performance. Many trial and error periods will be put in to ensure the most strategic placement of the microphones and receivers to guarantee the best effects for students, disabled and not.
+
+
+Design Process
+The design process is an extremely effective way to come up with solutions to design problems. This five-step system streamlines the process by breaking down finding information and testing solutions into small achievable steps. The first of these steps is the easiest to comprehend because it is identifying the problem. In our case, this is allowing people with disabilities to get the same classroom experience as a non-disabled student. The second step builds off of the first and is the gathering of information. We will need to find information on sound and its travel so our microphones are best used. We will need to do research on bluetooth receivers to figure out the most discreet and useful earpieces. Finally we will need to do research on the students the devices will be used on. We need to determine their feedback and receptiveness to having new technology in their classroom experience. The third step, focused on generating multiple viable solutions, is extremely important because no great inventor of anything got it completely right on the first try. Many of the solutions we will discuss will be failures, and as engineering students we understand that it is the way it needs to happen. After this step, the process is refined down to one or two major solutions to the task at hand. As the herd of ideas is slimmed down to the cream of the crop, these solutions are more intensely analyzed for deficiencies in planning and execution. Our solution must follow this list of guidelines:
+Solution must be cost-efficient
+Solution must be passed by administration
+Solution must be student-backed (We would not want to implement a system that students do not want to use)
+Solution must be able to be completed in the time frame
+There are many more things that could be added to the list but we will save those small details for the section on analyzing the problem. The final step is to test the solution. This area was the reason we decided to take on this challenge in the first place. Earlier in this document, we identified our Discrete Mathematics teacher, Ms. Funk. She has issues in the room she is in because of the size of the room and the placement of her desk. With her permission, we plan to fully integrate our system into her classroom not only to help her, but to help the students that are unable to catch the final piece of information they may not have heard while taking notes.
+
+DEFINING THE PROBLEM:
+Curtis and I imagine a classroom where an advisor could sit down in and not be able to tell which students may have disabilities. With the system we are creating, we will be able to assist a student with ADHD that cannot pay attention because he or she is unable to fully hear the instructor. We will also be able to assist a student with difficulty hearing by allowing a more direct link between a professor and a student, even if they are on completely opposite sides of a classroom. The need for this kind of classroom hearing device is extensive, with many students and professors having a less than perfect experience because of a disability that can be overcome. 
+As the process of our project continues to grow, we also plan to have the microphone on the professor’s desk have a speech-to-text component so even if the student does not ask a question that he or she may have missed at the time, they are still able to recover the material the lector covered. For this, we will implement a speech to text application that has already been tested and used by others. This concept, called audio frequency pattern detection, uses many subjects and has them pronounce every day words into a microphone. Over time the number of people that have said the word, for example “dog”, is at a high enough level that the researchers can start to use the frequencies of their voice. Usually, many people with a wide range of ethnic and religious backgrounds are used for these apps because the app must be able to take in accents and voice inflexion. The developers then use the repeating frequency of each person saying “dog” and use code to have a computer transfer the sound frequency patterns into the word. Once this is done for a multitude of words, the user is able to speak into the microphone and a screen that is connected will display the words that have been spoken.
+The problem statement “Create a system that allows for better classroom communication” is inaccurate. This statement says that the way classrooms are set up right now is flawed, and in some ways this is correct, but the overall function of the classroom itself should not change after the implementation of this project. Our main goal is to allow students with disabilities to have the same classroom experience and have the same ease of interacting with the professor and materials that any other student has. If I have one student that uses resources from the DRC tell me that our system was beneficial to his or her learning, then all the work that Curtis and I put into making this process a reality will all be worth it. 
+2) GATHER PERTINENT INFORMATION:
+Many pieces of data will be relevant to this design process. The first of these is simply, “How many students are we designing for?” or other quantity questions. The University of Georgia admitted five thousand seven hundred and fifty students in August of last year. According to Peter Eden, a leading scientist in the disability field, eleven percent of students going to university have some kind of learning disability. After the math is done, this means approximately six hundred and thirty three students that were accepted and are enrolled in our freshman class live with a learning disability. This was absolutely shocking to me because most students do not take the time to realize that they are in classrooms with students that are unable to learn the exact same way they do.
+	Our personal inspiration for this project came from being unable to hear professors in my own classes. I have no way to comprehend how a student that is limited in the classroom because of a disability feels when he or she cannot access valuable information. There are very few solutions to the task we are providing that are already being implemented at UGA. The DRC does a fantastic job at helping students get the materials needed to succeed, but in the classroom from my experience, I learn at an exponentially faster rate when I can digest the material as it is being said to me while I listen and take notes. Without our system, some students may not be able to get this same luxury as I receive. 
+	Many companies make the devices that Curtis and I will use to implement this project. There are hundreds of companies that have created headwear that would be possible to put in our design, but the idea we are looking for is an extremely discreet system that does its best to not hinder other students learning process. Wireless receivers can be purchased online at about $20 a piece and a headset with a microphone can be purchased for as low as $30 online. The final component of the system, the speech to text editor, is the most expensive portion of the design. A good system can cost upwards of $100.
+	This begs the question, “Why would a classroom ever implement this when students can just email the teacher after class or get the information later?” As stated earlier, the ability to learn the concept as the lector stands in front of the class can benefit students with or without disabilities alike. Another answer to this question is that the method UGA has to allow all students to get notes may be more costly than our system. For one semester, a notetaker costs $100. For larger classrooms, multiple notetakers can be present. In a larger lecture halls, such as one with one hundred fifty students, the number of students on average with a disability is between sixteen and seventeen students. If we were to divide this group up, according to “The Condition of Education” about six of these students would have learning disabilities. Once bought, the receivers and microphones for the system can be reused over and over each semester to cut down on costs.
+3) GENERATE MULTIPLE SOLUTIONS:
+There are several potential solutions that could solve this issue. The solutions we have considered are generally simple variations on the same concept wherein there are microphone audio pickup devices located around the room, and they can perform certain functions. Our solutions are essentially various locations that can be applied to our hardware. They have many and varied pros and cons and could all be considered viable solutions to help those who have attention difficulty, have problems with their vision and or their hearing. 
+	Our first option is to have one microphone given to the professor so that when he or she speaks, the audio can be broadcasted to those with headphones in the classroom. Students can communicate questions to the teacher via text, through an application on their cellular devices. The advantages to this method is a decreased cost due to lack of hardware requirements in comparison to other options. The disadvantages to this method include loss of specificity in regards to questions asked by students, as they will not be able to communicate effectively without the use of audible conversation. Additionally, those who cannot hear well or whom have a hard time learning through audible medium will not be helped with this method. 
+	The second option would be a method which implemented microphones around the classroom that could pick up audio and play it to the professor’s earpiece. It would also feature an audio playback and recording function for the professor’s lecture, allowing students to record lectures and listen to them live at a higher volume. The professor would also be able to hear students’ questions at a higher frequency. The advantages to this system include allowing students to hear lectures at a higher volume and allowing professors to hear students at a higher volume. The disadvantages include increased cost for the additional devices, and the system still does not implement some sort of feature that allows the student to translate the audible material into written notes. 
+	The third option would be a method which not only implements microphones around the classroom that can pick up audio and play it to the professor’s earpiece, and an audio playback and recording function, but also a text to speech and speech to text program that can help students translate lectures into transcripts in order to help those whom are hard of hearing or cannot focus on audible lecture. The advantages to this system include solving all of the potential issues which we set out to solve. The disadvantages are mainly the fact that this new system is the most expensive out of the three options. 
+	4) ANALYZE AND SELECT A SOLUTION:
+Analysis of Design Solutions
+All three of these solutions can be judged on a scale based off of the following criteria:
+Solution must be cost-efficient
+Solution must be passed by administration
+Solution must be student-backed (We would not want to implement a system that students do not want to use)
+Solution must be able to be completed in the time frame
+
+These criteria take into account the functionality of the solutions as well as the practicality, taking in cost and liability as well as how well they are received by those who the solutions are catered to. 
+Functional Analysis
+The given design solution will function well, by adjusting the audio recording devices in the room and researching how sound waves interact in a closed room, all echo and low feedback areas can be accounted for. The use of the audio pickup devices will solve all of the issues that we have foreseen that those with disabilities suffer from, and depending on how the solution is received, changes can be made to implement new characteristics that better cater to those in need. 
+Ergonomics
+This solution suits those whom it is created for. Users will have the ability to interact with the audio pickup and feedback system, can select functions that activate microphones in the room in order to hear questions from students, tune into the audio channel with the lecture broadcast, can record the lecture, can create a transcript of the lecture at the tap of a button, or have the written portion of instruction read out loud to them privately through an earpiece. The earpieces will need to be the same size as the average earbud, as most individuals are able to hear through them with little to no complaints about discomfort. Additionally, the microphone that the professor will carry on their person must not be cumbersome or distract from teaching the class. 
+Product Safety and Liability
+There is little potential for injury with our system. The only potential issue that could arise is if the earpiece issued to students with disabilities had some sort of short circuit, if there was water inside the device, or if they malfunctioned and began to play loud sounds that might damage a person’s eardrum. There is a very simple fail safe in this situation wherein the student can remove the earpiece. 
+Economic and Market Analysis
+This system could easily be marketed to all colleges. There are a great deal of students in the United States secondary education system that suffer from Dyslexia, ADHD, Vision Impairments, and Hearing Impairments. Additionally, it could be expanded to the high school classroom and even instructional seminars. The concept behind our system would be that if the cost of the sound system was lower than the cost of having a notetaker in every classroom for a full year ($200) it would be worth it, as the system would not require a new $100 charge every semester for a new notetaker, it could simply stay in place for the lifespan of the technology involved. General purpose microphones cost an average of $35 dollars apiece, and bluetooth earpieces cost around $20. Five microphones, cords to assist with connectivity, and two earpieces would cost roughly $215, in the ballpark of the cost for a notetaker for two semesters for one class. I would consider this a financially viable solution. 
+Mechanical/Strength Analysis
+The average audio pickup range in feet of a microphone is 100 feet. The average class size in college classrooms is 32 feet by 32 feet. By this analysis, one can determine that the microphones will be adequate enough in range to receive all audio from the classroom. This sort of system already exists in the form of a crowd microphone, which can turn smartphones into microphones in order to hear people in a broad audience. This system will definitely be able to endure the mechanical load. 
+The Decision Process
+Based off of our previous criteria, we assigned point values for the importance of each. 
+Solution must be cost-efficient
+30 points
+Solution must be passed by administration
+15 points
+Solution must be student-backed (We would not want to implement a system that students do not want to use)
+30 points
+Solution must be able to be completed in the time frame
+25 points
+The first solution receives the following scores: 1) 30 2) 15 3) 12 4) 25
+The second solution receives the following scores: 1) 30 2) 15 3) 16 4) 23
+The third solution receives the following scores: 1) 30 2) 15 3) 26 4) 21
+The third solution wins due to its effectiveness in solving most of the problems that the average student would endure. 
+	5) TEST AND IMPLEMENT THE SOLUTION
+Prototyping
+Our first prototype will likely involve two microphones, a closed room of size about 1024 square feet, and one earpiece, in order to create a system wherein the audio from the microphones is transmitted to the earpiece. We will then work in the concept of recording the material, saving the audio files. 
+Testing and Verification
+We would suggest testing our process in our Discrete Math class, with our professor’s permission. Frequently she has mentioned that she has issues hearing students when they respond to her in class or have questions. This would be the perfect environment to test our proposed “Better Ear.”
+
+Reach goals: Compare note taking costs vs our system and figure out when it is financially viable to implement our system.
+
+
+REFERENCE
+Dr. Eden, Peter. (2018, October 30). Support for College Students With Learning Disabilities. Retrieved February 18, 2019, from https://www.bestcolleges.com/resources/college-planning-with-learning-disabilities/
+The NCES Fast Facts Tool provides quick answers to many education questions (National Center for Education Statistics). (n.d.). Retrieved from https://nces.ed.gov/fastfacts/display.asp?id=60
+(n.d.). Retrieved from https://nces.ed.gov/programs/coe/indicator_cgg.asp
+
+
+
